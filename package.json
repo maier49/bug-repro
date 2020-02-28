@@ -16,7 +16,7 @@
   "devDependencies": {
     "@dojo/cli": "^6.0.0",
     "@dojo/cli-build-app": "^6.0.0",
-    "@dojo/cli-build-widget": "^6.0.2",
+    "@dojo/cli-build-widget": "file:dojo-widget.tgz",
     "typescript": "~3.4.5"
   }
 }
