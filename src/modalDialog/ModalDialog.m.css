@@ -1,0 +1,63 @@
+.root {
+}
+
+.rootStyle {
+}
+
+.content {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.contentStyle {
+  color: #222;
+}
+
+.promptStyle {
+  margin: 2vmin 0;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-top: 2vmin;
+}
+
+.buttonsStyle {
+}
+
+.button {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 6em;
+  height: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonStyle {
+  color: #fff;
+  background-color: #234;
+}
+
+.buttonStyle:hover {
+  background-color: #468;
+}
+
+.buttonStyle:disabled {
+  color: #888;
+  background-color: #aaa;
+}
+
+.buttonStyle:disabled:hover {
+  background-color: #aaa;
+}
+
+.acceptButton {
+}
+
+.cancelButton {
+}
